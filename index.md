@@ -1,6 +1,6 @@
 ---
-title       : Cars
-subtitle    : All About the Cars shiny app
+title       : Green Cars
+subtitle    : All About the Green Cars shiny app
 author      : Dan Davenport
 job         : Course Project, Developing Data Products
 logo        : DevelopingDataProducts.jpg
@@ -12,4 +12,51 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Cars
+## Our Changing Climate
+
+
+*  While doubters will no doubt always exist (and a degree of skepticism is healthy), the evidence is mounting that our global climate is changing 
+
+*  Many argue that the burning of fossil fuels (such as coal, natural gas, gasoline, and diesel fuel) is a significant contributor to the growing levels of "greenhouse" gases and global warming  
+
+*  While burning coal or natural gas to produce electrical power is a process we may influence only indirectly, there is something that almost every one of us in the United States can do help make the planet better for the generations which will follow us
+
+---  
+
+## What Can I Do?
+
+*  The US is a major contributor to the burning of fossil fuels and global warming 
+
+*  In the US, except for those in cities with access to reliable public transportation (and the willingness to use it), most of us use cars for individual transportation
+
+*  Our choice of car can easily result in burning twice as much gasoline or diesel fuel as we need to for the miles we drive
+
+*  Choosing a car with a higher Environmental Protection Agency (EPA) estimated Miles Per Gallon (mpg) is something that we, as individuals, can do to slow global warming
+
+*  While your actual mileage can vary from the EPA estimated mpg based on the way you drive, it does provide a good basis for comparing vehicles
+
+---
+
+## The Green Cars Shiny App
+
+*  The [Green Cars application](http://ddavenport.shinyapps.io/Cars) can help with selecting a car
+
+*  Simply select any number of models from the left hand pane and compare them in the table widget in the right hand pane
+
+*  The highest mpg rating of any of the vehicles you select is displayed
+
+*  The table widget allows you to paginate the results into a manageable number of rows (5, 10, or 50) and navigate from page to page; sort by one column or a combination of columns; or search for a particular model name in the results
+
+---
+
+## Next Steps
+
+*  To be really useful, the small mtcars sample database would need to be replaced by a similar but significantly more comprehensive database of vehicles
+
+
+
+*  The mtcars database only contains data on 32 cars which range from the worst mpg at 10.4 to the best mpg at 33.9 and have a mean mpg of 20.0906
+
+*  In addition to data on a comprehensive list of vehicles, it would be very helpful to categorize vehicles by manufacturer and class (e.g., if you absolutely had to have a pickup truck to haul hay for your horses, you could limit your search to pickup trucks)
+
+*  Mileage varies by year so the EPA estimate would have to be specific to the model year and thus allow you to search for new vehicles as well as by available used vehicles
