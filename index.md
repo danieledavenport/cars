@@ -60,3 +60,4 @@ knit        : slidify::knit2slides
 *  In addition to data on a comprehensive list of vehicles, it would be very helpful to categorize vehicles by manufacturer and class (e.g., if you absolutely had to have a pickup truck to haul hay for your horses, you could limit your search to pickup trucks)
 
 *  Mileage varies by year so the EPA estimate would have to be specific to the model year and thus allow you to search for new vehicles as well as by available used vehicles
+
